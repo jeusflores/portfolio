@@ -1,12 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url=PortFolio/">
-    <title>Jeus Flores Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeus Ryan C. Flores — BSIT Student</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <p>Redirecting to portfolio...</p>
+ 
+<div class="bg-grid"></div>
+<div class="bg-glow g1"></div>
+<div class="bg-glow g2"></div>
+<div class="bg-glow g3"></div>
+<div class="bg-noise"></div>
+ 
+<header id="site-header">
+  <div class="nav-inner">
+    <a href="#home" class="logo"><span class="dot"></span>JRF.dev</a>
+    <nav class="nav-links" id="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#tech-stack">Tech Stack</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Contact Me</a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+ 
+<!-- ================= HOME ================= -->
+<section class="hero" id="home">
+  <div class="wrap hero-inner">
+    <div>
+      <div class="eyebrow">root@flores:~$ whoami</div>
+      <h1 class="hero-name">Jeus Ryan<br>C. Flores<span class="cursor">&nbsp;</span></h1>
+      <div class="hero-role"><span class="bar"></span>3rd Year BSIT Student</div>
+      <p class="hero-intro">
+        An Information Technology student who enjoys turning ideas into working software.
+        Currently building my skills in web development and exploring new tools, frameworks,
+        and technologies one project at a time.
+      </p>
+      <div class="btn-row">
+        <a href="#portfolio" class="btn btn-primary">View My Portfolio</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+ 
+    <!-- EDIT: PROFILE IMAGE — replace this placeholder block with your own <img src="your-photo.jpg" alt="Jeus Ryan C. Flores"> -->
+    <div class="profile-frame">
+       <img src="image/ChatGPT Image Aug 17, 2026, 12_34_16 AM.png" alt = "jeus ryan flores">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="7" r="4"/></svg>
+      </div>
+      <p class="profile-label">
+    </div>
+  </div>
+</section>
+ 
+<!-- ================= ABOUT ================= -->
+<section class="section-pad" id="about">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow"><span class="section-num">02.</span> cd ~/about</div>
+      <h2 class="section-title">About Me</h2>
+    </div>
+ 
+    <div class="about-grid" style="margin-top:56px;">
+      <div class="reveal">
+        <div class="code-window">
+          <div class="code-window-bar">
+            <span></span><span></span><span></span>
+            <span class="code-window-title">about.json</span>
+          </div>
+          <div class="code-window-body">
+            <div>{</div>
+            <div>&nbsp;&nbsp;<span class="k">"name"</span>: <span class="s">"Jeus Ryan C. Flores"</span>,</div>
+            <div>&nbsp;&nbsp;<span class="k">"program"</span>: <span class="s">"BSIT"</span>,</div>
+            <div>&nbsp;&nbsp;<span class="k">"year"</span>: <span class="s">"3rd Year"</span>,</div>
+            <div>&nbsp;&nbsp;<span class="k">"status"</span>: <span class="s">"learning & building"</span></div>
+            <div>}</div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="reveal">
+        <div class="about-name">
+          Jeus Ryan C. Flores
+          <span>3rd Year BSIT Student</span>
+        </div>
+        <!-- EDIT: ABOUT TEXT — replace the paragraph below with your own background/introduction -->
+        <p class="about-text">
+          I am a 3rd Year BSIT college student who dreams of becoming a game developer.
+          I am always doing my best to learn and improve my skills in programming. Currently, I know HTML, CSS, and JavaScript, and I am also exploring different programming languages and technologies.
+          I enjoy creating games using Roblox Studio, and I also like exploring different types of projects such as systems, websites, and applications.
+          I want to become better in IT, so I will continue learning and practicing consistently. My goal is to keep improving until I can create and develop my own complete game by myself.
+        </p>
+        <p class="about-text" style="margin-top:16px;">
+          My goal is to become a skilled game developer in the future. I want to keep learning different programming languages and technologies so I can improve my skills in IT. 
+          I know that becoming a good developer takes time and practice, so I will continue learning consistently and working on different projects. 
+          Someday, I hope to create and finish my own game completely by myself.
+        </p>
+  </div>
+</section>
+ 
+<!-- ================= PORTFOLIO ================= -->
+<section class="section-pad" id="portfolio">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="section-num">03.</span> ls ~/projects</div>
+      <h2 class="section-title">Portfolio</h2>
+      <p class="section-sub">A selection of projects I've worked on.</p>
+    </div>
+ 
+    <div class="grid-3">
+      <!-- EDIT: PROJECT CARD 1 -->
+      <div class="card reveal">
+        <div class="card-thumb">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 4v14" stroke-linecap="round"/></svg>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Black Clover Website</h3>
+          <p class="card-desc">Short description of this project goes here — what it does and the problem it solves.</p>
+          <div class="tag-row">
+            <span class="tag">HTML</span><span class="tag">CSS</span>
+          </div>
+          <div class="card-actions">
+            <a href="Black-clover-website/blackclover.html" class="btn btn-outline" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- EDIT: PROJECT CARD 2 -->
+      <div class="card reveal">
+        <div class="card-thumb">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 4v14" stroke-linecap="round"/></svg>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Project Title Two</h3>
+          <p class="card-desc">Short description of this project goes here — what it does and the problem it solves.</p>
+          <div class="tag-row">
+            <span class="tag">Tech</span><span class="tag">Stack</span>
+          </div>
+          <div class="card-actions">
+            <a href="#" class="btn btn-outline">View Project</a>
+            <a href="#" class="btn btn-outline">GitHub</a>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- EDIT: PROJECT CARD 3 -->
+      <div class="card reveal">
+        <div class="card-thumb">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 4v14" stroke-linecap="round"/></svg>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Project Title Three</h3>
+          <p class="card-desc">Short description of this project goes here — what it does and the problem it solves.</p>
+          <div class="tag-row">
+            <span class="tag">Tech</span><span class="tag">Stack</span>
+          </div>
+          <div class="card-actions">
+            <a href="#" class="btn btn-outline">View Project</a>
+            <a href="#" class="btn btn-outline">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ================= CERTIFICATES ================= -->
+<section class="section-pad" id="certificates">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="section-num">04.</span> ls ~/certificates</div>
+      <h2 class="section-title">Certificates</h2>
+      <p class="section-sub">Click a certificate to preview it.</p>
+    </div>
+ 
+    <div class="grid-3" id="cert-grid">
+      <!-- EDIT: CERTIFICATE CARD 1 -->
+      <div class="card cert-card reveal" data-title="Certificate Title" data-org="Issuing Organization" data-date="Month Year">
+        <div class="card-thumb cert-thumb">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><circle cx="12" cy="8" r="5"/><path d="M8.5 12.5 7 22l5-3 5 3-1.5-9.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Certificate Title</h3>
+          <div class="cert-meta">
+            <span class="cert-org">Issuing Organization</span>
+            <span class="cert-date">Month Year</span>
+          </div>
+          <div class="card-actions"><button class="btn btn-outline" style="width:100%;">View Certificate</button></div>
+        </div>
+      </div>
+ 
+      <!-- EDIT: CERTIFICATE CARD 2 -->
+      <div class="card cert-card reveal" data-title="Certificate Title" data-org="Issuing Organization" data-date="Month Year">
+        <div class="card-thumb cert-thumb">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><circle cx="12" cy="8" r="5"/><path d="M8.5 12.5 7 22l5-3 5 3-1.5-9.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Certificate Title</h3>
+          <div class="cert-meta">
+            <span class="cert-org">Issuing Organization</span>
+            <span class="cert-date">Month Year</span>
+          </div>
+          <div class="card-actions"><button class="btn btn-outline" style="width:100%;">View Certificate</button></div>
+        </div>
+      </div>
+ 
+      <!-- EDIT: CERTIFICATE CARD 3 -->
+      <div class="card cert-card reveal" data-title="Certificate Title" data-org="Issuing Organization" data-date="Month Year">
+        <div class="card-thumb cert-thumb">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><circle cx="12" cy="8" r="5"/><path d="M8.5 12.5 7 22l5-3 5 3-1.5-9.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Certificate Title</h3>
+          <div class="cert-meta">
+            <span class="cert-org">Issuing Organization</span>
+            <span class="cert-date">Month Year</span>
+          </div>
+          <div class="card-actions"><button class="btn btn-outline" style="width:100%;">View Certificate</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- lightbox -->
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-inner">
+    <div class="lightbox-img">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4" stroke="currentColor"><circle cx="12" cy="8" r="5"/><path d="M8.5 12.5 7 22l5-3 5 3-1.5-9.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="lightbox-body">
+      <h3 class="card-title" id="lb-title">Certificate Title</h3>
+      <div class="cert-meta" style="margin-top:6px;">
+        <span class="cert-org" id="lb-org">Issuing Organization</span>
+        <span class="cert-date" id="lb-date">Month Year</span>
+      </div>
+    </div>
+  </div>
+  <button class="lightbox-close" id="lb-close" aria-label="Close preview">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6 6 18" stroke-linecap="round"/></svg>
+  </button>
+</div>
+ 
+<!-- ================= TECH STACK ================= -->
+<section class="section-pad" id="tech-stack">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="section-num">05.</span> cat ~/tech-stack.txt</div>
+      <h2 class="section-title">My Tech Stack</h2>
+      <p class="section-sub">add the languages, frameworks, and tools you work with.</p>
+    </div>
+ 
+    <!-- EDIT: TECH STACK — replace these empty slots with your own technology icons + labels -->
+    <div class="tech-panel reveal">
+      <div class="tech-grid">
+        <div class="tech-slot">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+          <span>HTML</span>
+        </div>
+        <div class="tech-slot">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+          <span>CSS</span>
+        </div>
+        <div class="tech-slot">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+          <span>JAVA SCRIPT</span>
+        </div>
+        <div class="tech-slot">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+          <span>Add Technology</span>
+        </div>
+        <div class="tech-slot">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+          <span>Add Technology</span>
+        </div>
+        <div class="tech-slot">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+          <span>Add Technology</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ================= CONTACT ================= -->
+<section class="section-pad" id="contact">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="section-num">06.</span> ~/contact --send</div>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-sub">Have a question or just want to connect? Send a message below.</p>
+    </div>
+ 
+    <div class="contact-grid">
+      <form class="reveal" id="contact-form">
+        <div class="field-group">
+          <label class="field-label" for="cf-name">Name</label>
+          <input class="field" type="text" id="cf-name" placeholder="Your full name" required>
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="cf-email">Email</label>
+          <input class="field" type="email" id="cf-email" placeholder="name@example.com" required>
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="cf-msg">Message</label>
+          <textarea class="field" id="cf-msg" placeholder="Write your message here..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message</button>
+        <div class="status-msg" id="form-status"></div>
+      </form>
+ 
+      <div class="contact-side-card reveal">
+        <!-- EDIT: CONTACT INFO — replace the email and social links below -->
+        <div class="contact-line">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M4 4h16v16H4z" stroke-linejoin="round"/><path d="m4 6 8 7 8-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div>
+            <span class="label">Email</span>
+            <span class="val">Jeusryan03@gmail.com</span>
+          </div>
+        </div>
+        <div class="contact-line">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M9 12h.01M12 12h.01M15 12h.01" stroke-linecap="round"/></svg>
+          <div>
+            <span class="label">Status</span>
+            <span class="val">Open to connect & collaborate</span>
+          </div>
+        </div>
+ 
+        <div class="social-row">
+          <a href="https://www.facebook.com/jeuss.M" class="social-pill" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.instagram.com/jeeiizzzsss" class="social-pill" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<footer>
+  <div class="wrap footer-inner">
+    <span class="footer-text">© 2026 Jeus Ryan C. Flores — Built while learning to code.</span>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </div>
+</footer>
+ 
+<script src="script.js"></script>
 </body>
 </html>
